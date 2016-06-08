@@ -1,7 +1,7 @@
 Cheat sheet for GDAL/OGR command-line geodata tools
 
 PG
-raster2pgsql -I -C -s <SRID> <PATH/TO/RASTER FILE> <SCHEMA>.<TABLENAME> | psql -h localhost -w <USER> -d <DATABASE> -p <PORT>
+raster2pgsql -I -C -s \<SRID\> \<PATH\/TO\/RASTER FILE\> \<SCHEMA\>.\<TABLENAME\> \| psql -h localhost -u \<USER\> -d \<DATABASE\> -p \<PORT\>
 
 
 Vector operations
